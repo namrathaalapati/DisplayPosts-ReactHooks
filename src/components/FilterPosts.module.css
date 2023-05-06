@@ -1,0 +1,21 @@
+.filterPosts{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 5px;
+    padding: 10px;
+}
+.search label{
+    font-weight: bold;
+}
+.search input{
+    font-size: 1rem;
+}
+.sortByTitle label{
+    font-weight: bold;
+}
+.sortByTitle select {
+    font-size: 1rem;
+   margin: 5px;
+   width: auto;
+}

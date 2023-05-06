@@ -1,0 +1,39 @@
+.users td, .users th {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+  .users tr:nth-child(even){background-color: #f2f2f2;}
+  
+  .users tr:hover {background-color: #ddd;}
+  
+  .users th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #52707f;
+    color: white;
+  }
+  .pagination {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 5px;
+  }
+  .pagination button{
+    background-color: #8daab9;
+    color: white;
+    width: 36px;
+    height: 32px;
+    border:1px solid #ccc;
+    border-radius: 5px;
+    padding: 1px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+  }
+  .pagination button:hover {
+    background-color: #52707f;
+   }
+  
+  .pagination button.active {
+    background-color: #52798d;
+    }

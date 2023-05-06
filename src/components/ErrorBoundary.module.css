@@ -1,0 +1,17 @@
+.error{
+    border-radius: 12px;
+    box-shadow: 0 1px 8px rgba(0, 0, 0, 0.25);
+    display: block;
+    width: 500px ;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.error h1{
+    color: red;
+}
+.error p{
+    font-size: 1.5rem;
+}
